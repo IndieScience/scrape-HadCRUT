@@ -11,6 +11,7 @@ jobs:
           python-version: 3.9.5
       - uses: actions/cache@v2
         name: Configure pip caching
+        id: cache-pip
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
