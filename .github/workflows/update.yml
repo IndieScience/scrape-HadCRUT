@@ -1,4 +1,4 @@
-name: Python package
+name: Update CAU site and data
 on: [push, workflow_dispatch]
 jobs:
   build:
