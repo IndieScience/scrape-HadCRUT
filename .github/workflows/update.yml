@@ -22,7 +22,7 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-          pytest scripts
+          pytest .
       - name: Run update.sh
         run: |
           scripts/update.sh
