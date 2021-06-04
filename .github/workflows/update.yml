@@ -13,7 +13,7 @@ jobs:
         name: Configure pip caching
         id: cache-pip
         with:
-          path: ~/.cache/pip
+          path: path: ${{ env.pythonLocation}}/lib/python3.9.5/site-packages/*
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-          
