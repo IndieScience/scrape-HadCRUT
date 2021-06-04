@@ -1,0 +1,19 @@
+body {
+  font-size: 100%; }
+
+#ccpText {
+  font-size: 25px; }
+
+#accessibility li#textSize a#lrg {
+  background: #14618a;
+  color: #fff; }
+
+/* Keep the size of the menu consistent */
+.menu li {
+  line-height: 0.5em;
+  height: 0.5em;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+ul.dropDownMenu {
+  margin-top: -10px; }

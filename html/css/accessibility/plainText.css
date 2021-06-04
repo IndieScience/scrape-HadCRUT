@@ -1,0 +1,38 @@
+#heading h1 {
+  float: none; }
+
+#navigation ul li, #navigation ul li a {
+  background: none;
+  text-align: left;
+  float: none;
+  text-decoration: underline;
+  padding: 0px; }
+
+#supporting-panel {
+  float: none;
+  width: 300px; }
+
+#main-panel {
+  float: none; }
+
+#sub-navigation {
+  margin-top: 20px; }
+
+#sub-navigation li a {
+  background: none;
+  padding: 0px;
+  text-decoration: underline; }
+
+#sub-navigation .sub-child-menu li a,
+#sub-navigation .selected .sub-child-menu li a {
+  padding: 0px;
+  text-decoration: underline; }
+
+#breadcrumbs {
+  display: none; }
+
+.page-title {
+  display: none; }
+
+#core-content {
+  background: none; }

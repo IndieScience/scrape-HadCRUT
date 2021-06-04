@@ -1,0 +1,9 @@
+body {
+  font-size: 75%; }
+
+#ccpText {
+  font-size: 25px; }
+
+#accessibility li#textSize a#sml {
+  background: #14618a;
+  color: #fff; }
