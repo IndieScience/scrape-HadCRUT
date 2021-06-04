@@ -22,7 +22,10 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-          if [ -f scripts/update.py ]; then python scripts/update.py > data/index.json; fi
+          pytest script
+      - name: Run update.sh
+        run: |
+          script/update.sh
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
