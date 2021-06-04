@@ -1,0 +1,1 @@
+wget -NS -P html https://crudata.uea.ac.uk/cru/data/temperature/
