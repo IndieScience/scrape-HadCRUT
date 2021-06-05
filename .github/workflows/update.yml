@@ -25,7 +25,6 @@ jobs:
         id: cache-pip
         with:
           path: |
-              ~/.local/bin
               ${{ env.pythonLocation}}/lib/python3.9/site-packages/*
           key: ${{ runner.os }}-pip-python3.9
           restore-keys: |
