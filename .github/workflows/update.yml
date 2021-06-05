@@ -1,5 +1,6 @@
 name: Update CRU site and data
 on:
+  workflow_dispath:
   pull_request:
     branches:
     - main
